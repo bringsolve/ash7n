@@ -1,0 +1,19 @@
+
+name: ash7n
+description: Ash7n Recharge Scanner App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.5+5
+  google_mlkit_text_recognition: ^0.11.0
+  permission_handler: ^11.0.1
+  url_launcher: ^6.2.1
+
+flutter:
+  uses-material-design: true
