@@ -1,4 +1,3 @@
-
 name: ash7n
 description: Ash7n Recharge Scanner App
 publish_to: 'none'
@@ -15,5 +14,18 @@ dependencies:
   permission_handler: ^11.0.1
   url_launcher: ^6.2.1
 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon.png"
+
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/icon.png
